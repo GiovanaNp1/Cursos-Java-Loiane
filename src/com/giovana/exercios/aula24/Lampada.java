@@ -7,6 +7,4 @@ public class Lampada {
 	double preco;
 	String marca;
 	
-	
-	
 }

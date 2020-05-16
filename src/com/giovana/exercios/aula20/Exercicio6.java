@@ -18,7 +18,16 @@ public class Exercicio6 {
 				tabuleiro[i][j] = " - ";
 			}
 		}
-		
+		System.out.println("Jogo da velha!!! ʕ•́ᴥ•̀ʔっ");
+		System.out.println("   0  1  2");
+		for(int i = 0; i < tabuleiro.length ; i++) {
+			System.out.print(i + " ");
+			for(int j = 0; j < tabuleiro[i].length ; j++) {
+				System.out.print(tabuleiro[i][j]);
+			}
+			System.out.println("");
+		}
+		System.out.println("");
 		while(!vencedor && jogadas != 9) {
 			System.out.println("Linha: ");
 			linha = scan.nextInt();
@@ -42,7 +51,9 @@ public class Exercicio6 {
 				}else {
 					vezJogada = " X ";
 				}
+				System.out.println("   0  1  2");
 				for(int i = 0; i < tabuleiro.length ; i++) {
+					System.out.print(i + " ");
 					for(int j = 0; j < tabuleiro[i].length ; j++) {
 						System.out.print(tabuleiro[i][j]);
 					}
