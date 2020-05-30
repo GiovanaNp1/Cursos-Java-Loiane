@@ -96,7 +96,7 @@ public class Exercicio6 {
 			if(tabuleiro[0][0].equals(" X ") && tabuleiro[1][1].equals(" X ") && tabuleiro[2][2].equals(" X ") ||
 				tabuleiro[0][2].equals(" X ") && tabuleiro[1][1].equals(" X ") && tabuleiro[2][0].equals(" X ")) {
 						vencedor = true;
-						System.out.println("O jogador O é o vencedor");
+						System.out.println("O jogador X é o vencedor");
 			}
 			
 		}
